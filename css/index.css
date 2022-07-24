@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Nunito+Sans:wght@200&family=Raleway:wght@100&family=Source+Sans+Pro:wght@200&display=swap');
+
+body {
+    margin: 2.5% 4%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav div {
+    display: flex;
+    margin-left: 8%;
+    color: #848484;
+}
+
+nav img:first-child {
+    width: 120px;
+}
+
+nav div h5 {
+    margin: 0px 60px;
+    font-size: 1rem;
+}
+
+.active-item {
+    color: #FE5E35;
+}
+
+nav img:last-child {
+    width: 20%;
+}
+
+/* --------------END NAVBAR----------- */
+
+.intro-section {
+    display: flex;
+}
+
+/* -----Left Section-----*/
+.left-section {
+    margin-top: 90px;
+}
+
+.left-section h3 img {
+    width: 40px;
+}
+
+.left-section h3 {
+    font-size: 2.4rem;
+    margin-bottom: 0;
+}
+
+.left-section h1 {
+    font-size: 5.6rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.sub-headlines {
+    margin-bottom: 40px;
+}
+
+.sub-headline {
+    display: flex;
+    align-items: center;
+}
+
+.sub-headline img {
+    background-color: #FE5E35;
+    border-radius: 100%;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.text {
+    color: #848484;
+    font-size: 1rem;
+    width: 72%;
+    margin-bottom: 40px;
+}
+
+.action-btns .action-btn {
+    margin-right: 35px;
+}
+
+/* -----Right Section-----*/
+
+.headphone-div img:last-child {
+    position: relative;
+    width: 530px;
+    top: -295px;
+    right: 50px;
+    z-index: -2;
+}
+
+.headphone-div img:first-child {
+    position: relative;
+    top: 309px;
+    right: 127px;
+    z-index: -1;
+}
+
+.discount-content {
+    position: relative;
+    top: 140px;
+    right: 70px;
+}
+
+div div h4 {
+    color: #ffffff;
+}
+
+.discount-content h1 {
+    color: #ffffff;
+}
+
+div div h1 {
+    margin-top: 0%;
+    font-size: 50px;
+}
+
+div div h4 {
+    margin-bottom: 0px;
+}
+
+.dots {
+    display: flex;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 0px 15px;
+}
+
+.yellow-dot {
+    background-color: #FBD104;
+}
+
+.tomato-dot {
+    background-color: #FE5E35;
+}
+
+.black-dot {
+    background-color: #000000;
+}
+
+.action-btn {
+    margin-top: 10px;
+    padding: 15px 50px;
+    border: 1px solid #FE5E35;
+    background-color: #FE5E35;
+    border-radius: 28px;
+    color: #ffffff;
+}
+
+.right-section .action-btn {
+    position: absolute;
+    top: 700px;
+    right: 300px;
+}
+
+.right-section .dots {
+    position: absolute;
+    top: 650px;
+    right: 300px;
+}
